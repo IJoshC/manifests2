@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="rock64-linux"
+  <remote  name="IJoshC"
            fetch="."
-           review="https://github.com/rock64-linux/" />
+           review="https://github.com/IJoshC/" />
   <default revision="master"
-           remote="rock64-linux"
+           remote="IJoshC"
            sync-j="4" />
 
   <project path="kernel" name="kernel" revision="release-4.4"/>
   <project path="u-boot" name="u-boot" revision="release"/>
-  <project path="rootfs" name="rk-rootfs-build" />
+
   <project path="rkbin" name="rkbin" />
 
-  <project path="build" name="build" revision="debian">
-	  <copyfile dest="README.md" src="README.md"/>
-  </project>
+
   
 </manifest>
