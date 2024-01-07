@@ -8,10 +8,10 @@
            remote="IJoshC"
            sync-j="4" />
 
-  <project path="kernel" name="kernel" revision="release-4.4"/>
-  <project path="u-boot" name="u-boot" revision="release"/>
+  <project path="kernel" name="kernel" revision="develop-4.4"/>
+  <project path="u-boot" name="u-boot" revision="next-dev"/>
 
-  <project path="rkbin" name="rkbin" />
+  <project path="rkbin" name="master" />
 
 
   
